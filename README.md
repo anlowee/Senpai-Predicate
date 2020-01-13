@@ -1,0 +1,2 @@
+# Senpai-Predicate
+↑↑↓↑↓↓↑↓↑
