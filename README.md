@@ -1,7 +1,9 @@
 # Senpai-Predicate
 ↑↑↓↑↓↓↑↓↑
-# Senpai-Predicate
-↑↑↓↑↓↓↑↓↑
+
+[module download link](https://pan.baidu.com/s/1OiLz9EmjZJB7l0HP_t2fJg) 
+
+key:9ml4
 
 # sample code
 ```(python)
@@ -30,6 +32,7 @@ y = model.predict(x)
 print('Prediction took {}s'.format(time.clock() - start))
 
 # confidence
+# 0-no senpai or 1-senpai
 for i in np.argsort(y[0])[::-1][:5]:
     print('{}:{:.2f}%'.format(i, y[0][i] * 100))
 ```
